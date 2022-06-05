@@ -2,7 +2,7 @@
 title: RedLine Stealer
 date: 2022-05-30 00:00:00 +0800
 categories: [Malware, Spyware]
-tags: [read_sample, .net, exe]     # TAG names should always be lowercase
+tags: [real_sample, .net, exe]     # TAG names should always be lowercase
 toc: true
 ---
 # Overview
