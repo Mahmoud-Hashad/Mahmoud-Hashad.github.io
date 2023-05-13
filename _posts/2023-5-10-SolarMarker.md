@@ -6,7 +6,6 @@ tags: [real_sample, .net, dll]
 toc: true
 ---
 
-
 # Initial assessment
 
 Using `pestudio`
@@ -22,7 +21,7 @@ entry point: 0x0002BECE
 
 some imports flagged by `pestudio` that are related to security, reconnaissance and network.
 
-## Exports 
+## DLL_Exports 
 
 No Exports 
 
