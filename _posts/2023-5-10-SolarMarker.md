@@ -79,7 +79,7 @@ DecryptRaw
 DecryptStr
 DestAddr
 SymmetricKey
-Win32_ComputerSystem.Name='{0}'Workgroup
+Win32_ComputerSystem.Name='{0}' Workgroup
 Workgroup
 NT 3.51
 NT 4.0
@@ -115,13 +115,10 @@ temp
 ","protocol_version": 1,"__waste__":"
 {"action":"change_status","hwid":"
 ","is_success":true,"protocol_version":1,"__waste__":"
--ep bypass -command "iex(get-content '')"command
-')"command
+-ep bypass -command "iex(get-content ' ')" command
+')"command
 command
--ep bypass -command ""
-MX-2UwmTIWFueMPScRNI8KiM9Zx4RA390CFCAlq5
--0123456789e+-.0123456789e+true
--.01234567ineristing89e+true
+-ep bypass -command ""
 \AppData\Roaming\solarmarker.dat
 ```
 
