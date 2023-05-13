@@ -9,10 +9,13 @@ toc: true
 # Initial assessment
 
 Using `pestudio`
+
 MD5: ed629af9a127724d64185a26d00ae62d
 
 File type: 32bit .NET DLL  
+
 Compiler stamp: `Mon Feb 22 17:24:02 2021 | UTC`
+
 entry point: 0x0002BECE
 
 ## Imports
